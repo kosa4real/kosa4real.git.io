@@ -1,0 +1,481 @@
+body{
+    font-family: 'Inter', 'sans-serif';
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+#header{
+    height: 95px;
+}
+#logo{
+    height: 53px;
+    width: 214px;
+}
+#navmenu .nav-link:hover{
+  color: rgb(32, 32, 32);
+}
+.home-underline::after {
+    content: "";
+    display: block;
+    width: 15px;
+    padding-top: 3px;
+    border-bottom: 2px solid #140047;
+    margin: 0px auto;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.btn-more{
+    background: #15014A;
+    border-radius: 34px;
+    color: #fff;
+    height: 66px;
+    width: 231px;
+    line-height: 3;
+
+}
+.btn-more:hover{
+    color:#fff;
+}
+.ellipse{
+    position: relative;
+    left: 225px;
+    bottom: 1px;
+    height: 100%;
+}
+.padding--start{
+    padding-left: 2.43rem;
+}
+
+.rounded-top-right {
+    border-top-right-radius: 12px;
+}
+.rounded-bottom-right{
+    border-bottom-right-radius: 12px;
+}
+#hero-section{
+    position: relative;
+    top:100px;
+}
+
+
+.hero{
+    background: linear-gradient(107.01deg, rgba(6, 202, 228, 0.3) -12.38%, rgba(6, 202, 228, 0) 101.21%);
+    border-radius: 12px;
+    height: 612px;
+
+}
+.rounded-circle{
+    width: 408px;
+    height: 408px;
+    left: 167px;
+    top: 844px;
+    background: #15014A;
+}
+#aboutusheader::after{
+    content: "";
+    display: block;
+    width: 35px;
+    padding-top: 3px;
+    border-bottom: 2px solid #140047;
+}
+#serviceheader::after,
+#contactheader:after{
+    content: "";
+    display: block;
+    width: 35px;
+    padding-top: 3px;
+    border-bottom: 2px solid #140047;
+    /*margin-left: 480px;*/
+    margin: 0 auto;
+}
+#productsheader::after{
+    content: "";
+    display: block;
+    width: 35px;
+    padding-top: 3px;
+    border-bottom: 2px solid #fff;
+}
+
+                                                                          /*SERVICES*/
+.nav-tabs .nav-link.active {
+    color:#202020;
+    background-color: #fff;
+    border-color: #fff #fff #ccc;
+    border-bottom: 3px solid black;
+    font-weight: 600;
+    font-size: 22px;
+}
+.nav-tabs .nav-link{
+    border: none;
+}
+button.nav-link{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    border: none;
+    color: rgba(32, 32, 32, 0.6);
+}
+.nav-link:hover{
+    border: none;
+    color: rgba(32, 32, 32, 0.6);
+}
+
+/*PRODUCTS*/
+.ourproducts{
+    height: 700px;
+    top: 2285px;
+    background: linear-gradient(296.5deg, #15014A -12.81%, #03D2E4 176.58%);
+    border-radius: 15px;
+}
+.card{
+    border-radius: 12px;
+}
+.card-body{
+    height: 400px;
+    /*width: 350px;*/
+}
+.footer{
+    background: #15014A;
+    height: 94px;
+}
+.text-16{
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #202020;
+    margin-right: 75px;
+}
+.text-42{
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 136.1%;
+    letter-spacing: -0.02em;
+    color: #140047;
+}
+.text-36{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 136.1%;
+    letter-spacing: -0.02em;
+    color: #202020;
+}
+
+.p-32{
+    line-height: 32px;
+}
+.p-30{
+    line-height: 30px;
+}
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 576px) and (max-width: 991px) {
+    #header{
+        height: 96px;
+    }
+    .hero{
+        background: linear-gradient(107.01deg, rgba(6, 202, 228, 0.3) -12.38%, rgba(6, 202, 228, 0) 101.21%);
+        height: 404px;
+    }
+    .hero p{
+        width: 25.125rem;
+        font-size: 0.85rem;
+        color: #4F4F4F;
+        line-height: 26px;
+    }
+
+
+    .hero h3{
+        width: 26.125rem;
+    }
+
+    .text-42{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 136.1%;
+        letter-spacing: -0.02em;
+        color: #140047;
+    }
+    .btn-more{
+        background: #15014A;
+        border-radius: 34px;
+        color: #fff;
+        height: 46px;
+        width: 151px;
+        line-height: 3;
+    }
+    .btn-small{
+        display:inline;
+        height: 46px;
+        width: 151px;
+        font-size: 14px;
+        padding: 15px 25px;
+    }
+
+    .ellipse{
+        position: relative;
+        right: -10rem;
+        bottom: 1px;
+        height: 100%;
+    }
+    #aboutus{
+        margin-top: 3.8125rem;
+    }
+    #aboutus p{
+        font-size: 16px;
+        color: #202020;
+        line-height: 32px;
+    }
+    .hero{
+        border-radius: 12px;
+        height: 480px;
+    }
+    .hero-image{
+        object-fit: contain;
+        overflow: hidden;
+    }
+    .padding--start{
+        padding-left: 2.375rem;
+    }
+    .text-36{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 136.1%;
+        letter-spacing: -0.02em;
+        color: #140047;
+        text-align: center;
+    }
+    #aboutusheader{
+        margin-top: 3.8125rem;
+    }
+    #aboutusheader::after{
+        margin:0 auto;
+        width: 3.75rem;
+        margin-top: 0.937rem;
+    }
+    #aboutus p{
+        max-width: 35rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    /*PRODUCTS */
+    #ourproducts{
+        height: 595px;
+    }
+    .ourproducts{
+        height: 595px;
+        margin: 0px 0.75rem;
+    }
+
+    .card{
+        width: 320px;
+        border-radius: 12px;
+    }
+     .embed-img{
+        width: 194px;
+        height: 47px;
+    }
+     .arrow-box{
+         margin-left: 20px !important;
+     }
+     .arrow-box .arrow-left{
+         margin-right: 10px;
+     }
+
+}
+
+@media (max-width: 575.98px){
+    body{
+        /*background: #E5E5E5;*/
+    }
+    #header{
+        height: 69px;
+    }
+    #logo{
+        width: 158px;
+        height: 40px;
+    }
+    .navbar-toggler{
+        padding-right: 0px;
+    }
+    .hero{
+        height: 404px;
+        margin: 0px 5px;
+    }
+    #hero-section p{
+        width: 15.975rem;
+        font-size: 0.75rem;
+        line-height: 1.25rem;
+        margin-top: 1.125rem;
+        color: #4F4F4F
+    }
+    #hero-section h3{
+        width: 15.975rem;
+    }
+    .text-42{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 136.1%;
+        letter-spacing: -0.02em;
+        color: #140047;
+    }
+    .text-36{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 136.1%;
+        letter-spacing: -0.02em;
+        color: #140047;
+        text-align: center;
+    }
+    .btn-more{
+        background: #15014A;
+        border-radius: 34px;
+        color: #fff;
+        height: 46px;
+        width: 151px;
+        margin-top: 1.125rem;
+    }
+    .btn-more:hover{
+        color:#fff;
+    }
+    .btn-small{
+        display:inline;
+        height: 46px;
+        width: 151px;
+        font-size: 14px;
+        padding: 15px 25px;
+        line-height: 15.4px;
+    }
+    .ellipse{
+        position: relative !important;
+        right: -10.125rem  !important ;
+        bottom: 1px  !important;
+        height: 100%  !important;
+    }
+
+    .rounded-circle{
+        width: 186px;
+        height: 186px;
+        background: #15014A;
+    }
+
+    .padding--start{
+        padding-left: 1.43rem;
+    }
+
+    #hero-section{
+        position: relative;
+        top:75px;
+    }
+    span.line {
+        display: inline-block;
+    }
+    #aboutus{
+        margin-top: 2.68rem;
+    }
+    #aboutus p{
+        text-align: center;
+        margin-top: 1.625rem;
+        font-size: 0.875rem;
+    }
+    #aboutusheader{
+        margin-top: 2.375rem;
+    }
+    #aboutusheader::after{
+        margin:0 auto;
+        width: 3.75rem;
+        margin-top: 0.937rem;
+    }
+
+    /*SERVICES*/
+    button.nav-link,
+    .nav-tabs .nav-link.active {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    }
+    #serviceheader::after,
+    #contactheader:after{
+        margin:0 auto;
+        width: 3.75rem;
+        margin-top: 0.937rem;
+    }
+    #services p{
+        font-size: 0.875rem;
+    }
+    #services p b{
+        font-size: 0.875rem;
+        color: #15014A;
+    }
+    /*SERVICES*/
+
+    /*PRODUCTS */
+    #ourproducts{
+        height: 850px;
+    }
+    .ourproducts{
+        height: 850px;
+        margin: 0px 0.75rem;
+    }
+    #productsheader::after{
+        margin: 0 auto;
+        width: 3.75rem;
+        margin-top: 0.937rem;
+    }
+    #productsheader{
+        margin-top: 3.68rem;
+    }
+    .product-title p,
+    .product-title h2{
+        padding-left: 0px !important;
+    }
+    .product-title p{
+        text-align: center;
+        padding: 0px 10px;
+        font-size: 0.875rem;
+    }
+    p.card-text{
+        color:#4F4F4F;
+        font-size: 0.875rem;
+    }
+    .arrow-box{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .arrow-box .arrow-left{
+        margin-right: 10px;
+    }
+    /*PRODUCTS */
+
+    /*CONTACT US */
+    #contactus p{
+        font-size: 0.875rem;
+        color: #4F4F4F;
+    }
+    .footer span{
+        font-size: 0.875rem;
+    }
+    /*CONTACT US */
+
+
+    .block{
+        display: block;
+    }
+
+
+}
